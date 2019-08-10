@@ -1,1 +1,5 @@
-This is coming from simple_terrain_and_movement
+To run.
+
+npm install
+node server.js
+then go to http://localhost/
