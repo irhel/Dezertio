@@ -1,7 +1,7 @@
 
 
-npm install
+```npm install```
 
-node server.js
+```node server.js```
 
-then go to http://localhost/
+then go to ```http://localhost/```
