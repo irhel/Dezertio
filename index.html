@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dezert.io</title>
+	<link rel="icon" href="assets/cactus.png">
+	<script src="/socket.io/socket.io.js"></script>
+	<link href="index.css" rel="stylesheet">
+</head>
+
+<!-- The line below is used to disable the default right click on a web page. -->
+<body oncontextmenu="return false;">
+
+
+	<div class="container">
+		<img id="lake" src="assets/nlake.png" draggable="false">
+		<img id="skull" src="assets/nskull.png" draggable="false">
+		<img id="rock" src="assets/nrock.png" draggable="false">
+
+		<img id="gold" src="assets/ngold.png" draggable="false">
+		
+		<img id="cactus1" src="assets/n_cactus.png" draggable="false">
+		<img id="hyena" src="assets/nhyena.png" draggable="false">
+		<img id="cactus2" src="assets/ncactus3.png" draggable="false">
+		<img id="scorpion" src="assets/nscorpion.png" draggable="false">
+		
+		
+		
+		<div class="menu">
+				
+				<img id="title" src="assets/title.png" draggable="false">
+				<div id="glowcenter"></div>
+				
+				<div class="fields">
+					
+					<input id="nickname" type="text" name="name" autofocus maxlength="15" placeholder="Nickname">
+					
+					<button name="play" onclick="StartGame()">Play</button>
+					<button id="selection" onclick="Game.toggleSelections(event)"> Server: <span id="triangle"></span> </button>
+					
+					<div class="options" onclick="Game.chooseServer(event)">
+						<div id="elem"> EU1</div>
+						<div id="elem"> EU2</div>
+						<div id="elem"> EU3</div>
+					</div>
+					
+				</div>
+				
+		</div>
+
+
+
+	</div>
+
+	<canvas></canvas>
+	<script src="game.js"></script>
+</body>
+	
+
+</html>
