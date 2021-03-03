@@ -1,11 +1,12 @@
 #Dezertio
 
-
-
 To run:
-```npm install```
-```node server.js```
-then navigate to ```http://localhost/```.
+
+`npm install`
+`node server.js`
+then navigate to `http://localhost/`
+
+
 
 
 
