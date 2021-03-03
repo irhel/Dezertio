@@ -14,3 +14,14 @@ then navigate to `http://localhost/`
 ### Demo Of The Game
 
 https://user-images.githubusercontent.com/2095698/109862389-aad93b80-7c60-11eb-86ab-75f35573fe7f.mp4
+
+### To do:
+
+- [ ] Use `MessagePack` to minimize data packets sent between client and server
+- [ ] Use [ws](https://github.com/websockets/ws) instead of `socket.io` for bidirectional communication
+- [x] @mentions, #refs, [links](),
+**formatting**, and <del>tags</del>
+supported
+- [x] list syntax required (any
+unordered or ordered list
+supported)
