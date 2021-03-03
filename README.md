@@ -17,7 +17,7 @@ https://user-images.githubusercontent.com/2095698/109862389-aad93b80-7c60-11eb-8
 
 ### To do:
 
-- [ ] Use [Spatial Hash Table] (https://core.ac.uk/download/pdf/186700369.pdf) for very fast collision detection
+- [ ] Use [Spatial Hash Table](https://core.ac.uk/download/pdf/186700369.pdf) for very fast collision detection
 - [ ] Use `MessagePack` to minimize data packets sent between client and server
 - [ ] Use [ws](https://github.com/websockets/ws) instead of `socket.io` for bidirectional communication
 - [x] @mentions, #refs, [links](),
