@@ -1,6 +1,6 @@
 # Dezertio
 
-Prototype of a multiplayer survival game inspired by "Don't Starve". Supports core elements of survival games like
+Prototype of a multiplayer survival game inspired by `Don't Starve`. Supports core elements of survival games like
 hunting, crafting and PvP.
 
 To run:
