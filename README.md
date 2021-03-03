@@ -3,7 +3,9 @@
 To run:
 
 `npm install`
+
 `node server.js`
+
 then navigate to `http://localhost/`
 
 ### Demo Of The Game
