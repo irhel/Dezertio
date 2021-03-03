@@ -1,5 +1,8 @@
 # Dezertio
 
+Prototype of a multiplayer survival game inspired by Minecraft. Supports core elements of survival games like
+hunting, crafting and PvP.
+
 To run:
 
 `npm install`
